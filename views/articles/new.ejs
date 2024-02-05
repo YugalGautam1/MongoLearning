@@ -8,12 +8,11 @@
     <title>Blog </title>
 </head>
 <body>
-    This is HTML
-    <h1> <%= articles%></h1>
+    <div class = "container">
+        <h1 class = "mb-4"> New Article</h1>
+        <form action = "/articles" method = "POST">
+            <%- include('_form_fields') %>
+        </form>
+    </div>
 </body>
-    <div class = "container"></div>
-    <h1 class = 'mb-4'>Blog Articles </h1>
-    <a hred = "/articles/new" class = "btn btn-success">New Article </a>
-    <%articles.forEach(article=>
-    })>
 </html>
