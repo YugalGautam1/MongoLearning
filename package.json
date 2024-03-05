@@ -1,21 +1,26 @@
 {
-  "name": "node-js-mongo-project",
+  "name": "blogmarkdown2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dompurify": "^3.0.9",
     "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "mongoose": "^8.0.3"
+    "express": "^4.18.3",
+    "jsdom": "^24.0.0",
+    "jsondom": "^0.4.1",
+    "marked": "^12.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.2.0",
+    "slugify": "^1.6.6"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.1.0"
   }
 }
